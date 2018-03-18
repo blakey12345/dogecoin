@@ -1,6 +1,6 @@
 PACKAGE=qt
 $(package)_version=5.2.1
-$(package)_download_path=https://download.qt.io/archive/qt/5.2/5.2.1/single/$($(package)_version).tar.gz
+$(package)_download_path=https://download.qt.io/archive/qt/5.2/5.2.1/single/qt-everywhere-opensource-src-5.2.1.tar.gz
 $(package)_file_name=$(package)-everywhere-opensource-src-$($(package)_version).tar.gz
 $(package)_sha256_hash=84e924181d4ad6db00239d87250cc89868484a14841f77fb85ab1f1dbdcd7da1
 $(package)_dependencies=openssl
